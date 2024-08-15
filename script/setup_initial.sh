@@ -5,6 +5,8 @@ CONFIG_INFRA=$1
 
 echo ==--------npm mirror config---------==
 npm config set registry https://registry.npmmirror.com/
+echo .
+echo .
 
 echo ==--------CheckDedendencies---------==
 # npm install -g aws-cdk
